@@ -1,0 +1,445 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Card - Material Components Catalog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <link rel="stylesheet" href="css/card.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/chips.css">
+	<link rel="stylesheet" href="css/color-palette.scss">
+
+	<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+	<script>mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));</script>
+	<script src="js/common.js" async></script>
+	<script src="js/material-components-web.js" async></script>
+
+<style>
+.my-card {
+  height: 350px;
+  width: 350px;
+}
+</style>
+</head>
+<body>
+<main>
+<section class="head-part ">
+	<h3>Explore by picking one</h3>
+	<div class="filter-button-group">
+	<button data-filter=".purple" class="mdc-button mdc-button--raised company">
+  Company
+</button>
+<button  data-filter=".orange"  class="mdc-button mdc-button--raised brug">
+  Drug
+</button>
+<button  data-filter=".blue"  class="mdc-button mdc-button--raised plan">
+  Health Plan
+</button>
+<button data-filter=".purple"  class="mdc-button mdc-button--raised contracting">
+  Contracting Type
+</button>
+<button data-filter=".orange"  class="mdc-button mdc-button--raised warning">
+ Date
+</button>
+</div>
+<div><button>Amgen</button>
+<button>AstraZeneca</button>
+<button>Eli Lilly</button>
+<button>Genentech</button>
+<button>Merck & Co.</button>
+<button>Merck (EMD Serono)</button>
+<button>Novartis</button>
+<button>Procter & Gamble/
+Sanofi-Aventis</button>
+<button>Sanofi / Regeneron</button>
+<button>Spark Therapeutics </div>
+</section>
+
+<div class="all-card grid">
+
+        <div class="mdc-card demo-card purple">
+         <div class="panel">
+  <div class="front card">
+
+
+            <div class="demo-card__primary">
+              <h2 class="demo-card__title mdc-typography--headline6">Amgen
+</h2>
+              <h3 class="demo-card__subtitle mdc-typography--subtitle2">Enbrel (etanercept)</h3>
+              <h3 class="demo-card__subtitle mdc-typography--subtitle2">2017</h3>
+            </div>
+
+
+  </div>
+
+
+  <div class="back card">
+    <div class="demo-card__secondary mdc-typography--body2 my-element--animating">
+      <p><strong>Health Plan / Delivery System </strong> Harvard Pilgrim</p>
+      <p><strong>Therapeutic Area</strong> Rheumatoid Arthritis</p>
+
+            </div>
+  </div>
+
+</div>
+          <div class="mdc-card__actions read">
+            <div class="mdc-card__action-buttons">
+              <button class="mdc-button mdc-card__action mdc-card__action--button">Read More<i class="material-icons">
+navigate_next
+</i></button>
+
+            </div>
+
+          </div>
+        </div>
+  <div class="mdc-card demo-card orange">
+            <div class="panel">
+  <div class="front card">
+
+
+            <div class="demo-card__primary">
+              <h2 class="demo-card__title mdc-typography--headline6">Our Changing Planet</h2>
+              <h3 class="demo-card__subtitle mdc-typography--subtitle2">by Kurt Wagner</h3>
+            </div>
+
+
+  </div>
+
+
+  <div class="back card">
+    <div class="demo-card__secondary mdc-typography--body2 my-element--animating">
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </div>
+  </div>
+
+</div>
+          <div class="mdc-card__actions read">
+            <div class="mdc-card__action-buttons">
+              <button class="mdc-button mdc-card__action mdc-card__action--button">Read More<i class="material-icons">
+navigate_next
+</i></button>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="mdc-card demo-card orange">
+              <div class="panel">
+  <div class="front card">
+
+
+            <div class="demo-card__primary">
+              <h2 class="demo-card__title mdc-typography--headline6">Our Changing Planet</h2>
+              <h3 class="demo-card__subtitle mdc-typography--subtitle2">by Kurt Wagner</h3>
+            </div>
+
+
+  </div>
+
+
+  <div class="back card">
+    <div class="demo-card__secondary mdc-typography--body2 my-element--animating">
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </div>
+  </div>
+
+</div>
+          <div class="mdc-card__actions read">
+            <div class="mdc-card__action-buttons">
+              <button class="mdc-button mdc-card__action mdc-card__action--button">Read More<i class="material-icons">
+navigate_next
+</i></button>
+
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="mdc-card demo-card blue">
+             <div class="panel">
+  <div class="front card">
+
+
+            <div class="demo-card__primary">
+              <h2 class="demo-card__title mdc-typography--headline6">Our Changing Planet</h2>
+              <h3 class="demo-card__subtitle mdc-typography--subtitle2">by Kurt Wagner</h3>
+            </div>
+
+
+  </div>
+
+
+  <div class="back card">
+    <div class="demo-card__secondary mdc-typography--body2 my-element--animating">
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </div>
+  </div>
+
+</div>
+          <div class="mdc-card__actions read">
+            <div class="mdc-card__action-buttons">
+              <button class="mdc-button mdc-card__action mdc-card__action--button">Read More<i class="material-icons">
+navigate_next
+</i></button>
+
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="mdc-card demo-card blue">
+            <div class="panel">
+  <div class="front card">
+
+
+            <div class="demo-card__primary">
+              <h2 class="demo-card__title mdc-typography--headline6">Our Changing Planet</h2>
+              <h3 class="demo-card__subtitle mdc-typography--subtitle2">by Kurt Wagner</h3>
+            </div>
+
+
+  </div>
+
+
+  <div class="back card">
+    <div class="demo-card__secondary mdc-typography--body2 my-element--animating">
+
+            </div>
+  </div>
+
+</div>
+          <div class="mdc-card__actions read">
+            <div class="mdc-card__action-buttons">
+              <button class="mdc-button mdc-card__action mdc-card__action--button">Read More<i class="material-icons">
+navigate_next
+</i></button>
+
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div class="mdc-card demo-card purple">
+            <div class="panel">
+  <div class="front card">
+
+
+            <div class="demo-card__primary">
+              <h2 class="demo-card__title mdc-typography--headline6">Our Changing Planet</h2>
+              <h3 class="demo-card__subtitle mdc-typography--subtitle2">by Kurt Wagner</h3>
+            </div>
+
+
+  </div>
+
+
+  <div class="back card">
+    <div class="demo-card__secondary mdc-typography--body2 my-element--animating">
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </div>
+  </div>
+
+</div>
+          <div class="mdc-card__actions read">
+            <div class="mdc-card__action-buttons">
+              <button class="mdc-button mdc-card__action mdc-card__action--button">Read More<i class="material-icons">
+navigate_next
+</i></button>
+
+            </div>
+
+          </div>
+        </div>
+  <div class="mdc-card demo-card orange">
+            <div class="panel">
+  <div class="front card">
+
+
+            <div class="demo-card__primary">
+              <h2 class="demo-card__title mdc-typography--headline6">Our Changing Planet</h2>
+              <h3 class="demo-card__subtitle mdc-typography--subtitle2">by Kurt Wagner</h3>
+            </div>
+
+
+  </div>
+
+
+  <div class="back card">
+    <div class="demo-card__secondary mdc-typography--body2 my-element--animating">
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </div>
+  </div>
+
+</div>
+          <div class="mdc-card__actions read">
+            <div class="mdc-card__action-buttons">
+              <button class="mdc-button mdc-card__action mdc-card__action--button">Read More<i class="material-icons">
+navigate_next
+</i></button>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="mdc-card demo-card orange">
+           <div class="panel">
+  <div class="front card">
+
+
+            <div class="demo-card__primary">
+              <h2 class="demo-card__title mdc-typography--headline6">Our Changing Planet</h2>
+              <h3 class="demo-card__subtitle mdc-typography--subtitle2">by Kurt Wagner</h3>
+            </div>
+
+
+  </div>
+
+
+  <div class="back card">
+    <div class="demo-card__secondary mdc-typography--body2 my-element--animating">
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </div>
+  </div>
+
+</div>
+          <div class="mdc-card__actions read">
+            <div class="mdc-card__action-buttons">
+              <button class="mdc-button mdc-card__action mdc-card__action--button">Read More<i class="material-icons">
+navigate_next
+</i></button>
+
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="mdc-card demo-card blue">
+           <div class="panel">
+  <div class="front card">
+
+
+            <div class="demo-card__primary">
+              <h2 class="demo-card__title mdc-typography--headline6">Our Changing Planet</h2>
+              <h3 class="demo-card__subtitle mdc-typography--subtitle2">by Kurt Wagner</h3>
+            </div>
+
+
+  </div>
+
+
+  <div class="back card">
+    <div class="demo-card__secondary mdc-typography--body2 my-element--animating">
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </div>
+  </div>
+
+</div>
+          <div class="mdc-card__actions read">
+            <div class="mdc-card__action-buttons">
+              <button class="mdc-button mdc-card__action mdc-card__action--button">Read More<i class="material-icons">
+navigate_next
+</i></button>
+
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="mdc-card demo-card blue">
+            <div class="panel">
+  <div class="front card">
+
+
+            <div class="demo-card__primary">
+              <h2 class="demo-card__title mdc-typography--headline6">Our Changing Planet</h2>
+              <h3 class="demo-card__subtitle mdc-typography--subtitle2">by Kurt Wagner</h3>
+            </div>
+
+
+  </div>
+
+
+  <div class="back card">
+    <div class="demo-card__secondary mdc-typography--body2 my-element--animating">
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </div>
+  </div>
+
+</div>
+          <div class="mdc-card__actions read">
+            <div class="mdc-card__action-buttons">
+              <button class="mdc-button mdc-card__action mdc-card__action--button">Read More<i class="material-icons">
+navigate_next
+</i></button>
+
+            </div>
+
+          </div>
+        </div>
+
+</div>
+</main>
+ <table class="table-section">
+  <tr>
+    <th>#</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+	<th>Username</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Mark</td>
+    <td>ado</td>
+	<td>@mee</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Mark</td>
+    <td>ado</td>
+	<td>@usdf</td>
+  </tr>
+   <tr>
+    <td>3</td>
+    <td>Jacob</td>
+    <td>Thom</td>
+	<td>@jgd</td>
+  </tr>
+    <tr>
+    <td>4</td>
+    <td>Larry Dird</td>
+    <td>Thom</td>
+	<td>@gg</td>
+  </tr>
+</table>
+
+
+
+
+</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/isotope.js"></script>
+<script>
+
+jQuery(document).ready(function($) {
+var $grid = $('.grid').isotope({
+  // options
+});
+// filter items on button click
+$('.filter-button-group').on( 'click', 'button', function() {
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+});
+});
+</script>
