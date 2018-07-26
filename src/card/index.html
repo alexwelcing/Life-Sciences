@@ -15,7 +15,7 @@
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.1.0/material.min.css">
 		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.material.min.css">
 		<link rel="stylesheet" href="https://cdn.datatables.net/responsive/1.0.0/css/dataTables.responsive.css">
-		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 		<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 		<script>mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));</script>
 		<script src="js/common.js" async></script>
@@ -25,6 +25,8 @@
 		<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/dataTables.material.min.js"></script>
         <script src="https://cdn.datatables.net/responsive/1.0.0/js/dataTables.responsive.min.js"></script>
 		
+
+
 		<script src="js/isotope.js"></script>
 		<script src="js/custom.js"></script>
 		<style>
@@ -39,6 +41,15 @@
 			<section class="head-part ">
 				<h3>Explore by picking one</h3>
 				<div class="filter-button-group" id="categories">
+				    <div class="dyn"></div>
+				    <div class="fil">
+				        <button class="btn btn-default date" data-sort-direction="asc" data-sort-value="filedate" type="button">Date 
+				            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+				        </button> 
+				        <button class="btn btn-default type" data-sort-direction="asc" data-sort-value="filename" type="button">Type 
+				            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+				        </button>
+				    </div>
 				</div>
 				
 				<div class="filter-button-group sub-buttons" id="subcategories">
