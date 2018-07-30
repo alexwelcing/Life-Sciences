@@ -5048,7 +5048,7 @@ input.mdl-button[type="submit"] {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: background-color; }
     .mdl-data-table tbody tr.is-selected {
-      background-color: #e0e0e0; }
+      background-color: #e0e0e0; } 
     .mdl-data-table tbody tr:hover {
       background-color: #eeeeee; }
   .mdl-data-table td, .mdl-data-table th {
