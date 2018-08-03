@@ -1,80 +1,80 @@
-[  
-   {  
+[
+   {
       "id":"1",
       "description":"\"Harvard Pilgrim To Pay for 2 Autoimmune Drugs Based on Outcomes, Value\", Managed Care, 2017",
-      "link":"http:\/\/dhss.alaska.gov\/dph\/HealthPlanning\/Pages\/telehealth\/regsandstatutes.aspx",
+      "link":"https:\/\/www.managedcaremag.com\/dailynews\/20170223\/harvard-pilgrim-pay-2-autoimmune-drugs-based-outcomes-value",
       "date":"2018-07-25 11:20:31"
    },
-   {  
+   {
       "id":"2",
       "description":"Outcomes-Based Pharmaceutical Contracts: An Answer to High U.S. Drug Spending? Commonwealth Fund Issue Brief, September 2017",
-      "link":"http:\/\/www.imlcc.org\/",
+      "link":"https:\/\/www.commonwealthfund.org\/publications\/issue-briefs\/2017\/sep\/outcomes-based-pharmaceutical-contracts-answer-high-us-drug",
       "date":"2018-07-25 11:22:21"
    },
-   {  
-      "id":"3",
-      "description":"\"Developing a Path to Value-Based Payment for Medical Products; Value-Based Payment Advisory Group Kick-Off Meeting Background Paper\", Duke University, 2017",
-      "link":"http:\/\/www.akleg.gov\/basis\/Bill\/Text\/29?Hsid=SB0074Z",
-      "date":"2018-07-25 11:23:15"
-   },
-   {  
+  {
+    "id": "3",
+    "description": "\"Developing a Path to Value-Based Payment for Medical Products; Value-Based Payment Advisory Group Kick-Off Meeting Background Paper\", Duke University, 2017",
+    "link": "https:\/\/www.healthpolicy.duke.edu\/sites\/default\/files\/atoms\/files\/value_based_payment_background_paper_-_october_2017_final.pdf",
+    "date": "2018-07-25 11:23:15"
+  },
+   {
       "id":"4",
       "description":"\"Health Insurers Push to Tie Drug Prices to Outcomes\", The Wall Street Journal, 2016",
-      "link":"http:\/\/www.akleg.gov\/basis\/Bill\/Text\/29?Hsid=SB0074Z",
+      "link":"https:\/\/www.wsj.com\/articles\/health-insurers-push-to-tie-drug-prices-to-outcomes-1462939262",
       "date":"2018-07-25 11:23:37"
    },
-   {  
-      "id":"5",
-      "description":"\"Developing a Path to Value-Based Payment for Medical Products; Value-Based Payment Advisory Group Kick-Off Meeting Background Paper\", Duke University, 2017; \"Harvard Pilgrim Signs Outcomes-Based Contracts with AstraZeneca for Brilinta and Bydureon\", BusinessWire (2017)",
-      "link":"http:\/\/dhss.alaska.gov\/dph\/HealthPlanning\/Pages\/telehealth\/regsandstatutes.aspx",
-      "date":"2018-07-25 11:23:49"
-   },
-   {  
-      "id":"6",
-      "description":"The U.S. OBIC Tracker, Stisali, updated May 2017",
-      "link":"http:\/\/dhss.alaska.gov\/dph\/HealthPlanning\/Pages\/telehealth\/regsandstatutes.aspx",
-      "date":"2018-07-25 11:24:02"
-   },
-   {  
-      "id":"7",
-      "description":"\"Harvard Pilgrim Signs Value-Based Contract with Eli Lilly & Company for its Osteoporosis drug, Forteo\", Metro Hartford Alliance",
-      "link":"http:\/\/dhss.alaska.gov\/dph\/HealthPlanning\/Pages\/telehealth\/regsandstatutes.aspx",
-      "date":"2018-07-25 11:24:19"
-   },
-   {  
-      "id":"8",
-      "description":"Performance-Based Risk-Sharing Arrangements for Pharmaceutical Products in the United States: A Systematic Review",
-      "link":"https:\/\/medicaid.alabama.gov\/content\/Gated\/7.6.1G_Provider_Manuals\/7.6.1.1G_Jan2018\/Jan18_28.pdf",
-      "date":"2018-07-25 11:24:35"
-   },
-   {  
-      "id":"9",
-      "description":"\"Overcoming Challenges of Outcomes-Based Contracting for Pharmaceuticals: Early Lessons from the Genentech - Priority Health Pilot\", Health Affairs Blog, 2017",
-      "link":"https:\/\/legiscan.com\/AR\/text\/SB146\/2017",
-      "date":"2018-07-25 11:24:52"
-   },
-   {  
-      "id":"10",
-      "description":"\"Aetna and Merck Sign a Unique Value-Based Contract to Januvia and Janumet\", Aetna Press Release, October 2016",
-      "link":"https:\/\/legiscan.com\/AR\/text\/SB146\/2017",
-      "date":"2018-07-25 11:25:10"
-   },
-   {  
-      "id":"11",
-      "description":"Developing a Path to Value-Based Payment for Medical Products; Value-Based Payment Advisory Group Kick-Off Meeting Background Paper, 2017",
-      "link":"https:\/\/www.medicaid.state.ar.us\/Download\/provider\/provdocs\/Manuals\/PHYSICN\/PHYSICN_II.doc",
-      "date":"2018-07-25 11:25:24"
-   },
-   {  
-      "id":"12",
-      "description":"http:\/\/www.news.sanofi.us\/2018-05-01-Sanofi-and-Regeneron-to-lower-net-price-of-Praluent-R-alirocumab-Injection-in-exchange-for-straightforward-more-affordable-patient-access-for-Express-Scripts-patients https:\/\/www.cnbc.com\/2018\/05\/01\/regeneron-sanofi-chop-cholesterol-drug-price-in-express-scripts-pact.html",
-      "link":"https:\/\/www.medicaid.state.ar.us\/Download\/provider\/provdocs\/Manuals\/PHYSICN\/PHYSICN_II.doc",
-      "date":"2018-07-25 11:25:43"
-   },
-   {  
-      "id":"13",
-      "description":"Outcomes-Based Contracts Offer Payers New Pharmaceutical Options,HealthPayer Intelligence, 2018; Spark Therapeutics Press Release, Jan 2018",
-      "link":"https:\/\/www.colorado.gov\/pacific\/sites\/default\/files\/CMS1500_Telemedicine%20v1_1.pdf",
-      "date":"2018-07-25 11:25:54"
-   }
+  {
+    "id": "5",
+    "description": "\"Developing a Path to Value-Based Payment for Medical Products; Value-Based Payment Advisory Group Kick-Off Meeting Background Paper\", Duke University, 2017; \"Harvard Pilgrim Signs Outcomes-Based Contracts with AstraZeneca for Brilinta and Bydureon\", BusinessWire (2017)",
+    "link": "https:\/\/www.businesswire.com\/news\/home\/20170530005665\/en\/Harvard-Pilgrim-Signs-Outcomes-Based-Contracts-AstraZeneca-Brilinta",
+    "date": "2018-07-25 11:23:49"
+  },
+  {
+    "id": "6",
+    "description": "The U.S. OBIC Tracker, Stisali, updated May 2017",
+    "link": "https:\/\/verpora.com\/uploads\/resources\/US-OBIC-Tracker-May-31-2017.pdf",
+    "date": "2018-07-25 11:24:02"
+  },
+  {
+    "id": "7",
+    "description": "\"Harvard Pilgrim Signs Value-Based Contract with Eli Lilly & Company for its Osteoporosis drug, Forteo\", Metro Hartford Alliance",
+    "link": "https:\/\/www.metrohartford.com\/newsroom\/investor-news\/2017\/02\/24\/harvard-pilgrim-signs-value-based-contract-with-eli-lilly-company-for-its-osteoporosis-drug-forteo",
+    "date": "2018-07-25 11:24:19"
+  },
+  {
+    "id": "8",
+    "description": "Performance-Based Risk-Sharing Arrangements for Pharmaceutical Products in the United States: A Systematic Review",
+    "link": "https:\/\/www.jmcp.org\/doi\/full\/10.18553\/jmcp.2017.23.10.1028",
+    "date": "2018-07-25 11:24:35"
+  },
+  {
+    "id": "9",
+    "description": "\"Overcoming Challenges of Outcomes-Based Contracting for Pharmaceuticals: Early Lessons from the Genentech - Priority Health Pilot\", Health Affairs Blog, 2017",
+    "link": "https:\/\/www.healthaffairs.org\/do\/10.1377\/hblog20170403.059442\/full\/",
+    "date": "2018-07-25 11:24:52"
+  },
+  {
+    "id": "10",
+    "description": "\"Aetna and Merck Sign a Unique Value-Based Contract to Januvia and Janumet\", Aetna Press Release, October 2016",
+    "link": "http:\/\/investor.aetna.com\/phoenix.zhtml?c=110617&p=irol-newsArticle&ID=2210771",
+    "date": "2018-07-25 11:25:10"
+  },
+  {
+    "id": "11",
+    "description": "Developing a Path to Value-Based Payment for Medical Products; Value-Based Payment Advisory Group Kick-Off Meeting Background Paper, 2017",
+    "link": "https:\/\/healthpolicy.duke.edu\/sites\/default\/files\/atoms\/files\/value_based_payment_background_paper_-_october_2017_final.pdf",
+    "date": "2018-07-25 11:25:24"
+  },
+  {
+    "id": "12",
+    "description": "http://www.news.sanofi.us/2018-05-01-Sanofi-and-Regeneron-to-lower-net-price-of-Praluent-R-alirocumab-Injection-in-exchange-for-straightforward-more-affordable-patient-access-for-Express-Scripts-patients https://www.cnbc.com/2018/05/01/regeneron-sanofi-chop-cholesterol-drug-price-in-express-scripts-pact.html",
+    "link": "http:\/\/www.news.sanofi.us\/2018-05-01-Sanofi-and-Regeneron-to-lower-net-price-of-Praluent-R-alirocumab-Injection-in-exchange-for-straightforward-more-affordable-patient-access-for-Express-Scripts-patients",
+    "date": "2018-07-25 11:25:43"
+  },
+  {
+    "id": "13",
+    "description": "Outcomes-Based Contracts Offer Payers New Pharmaceutical Options,HealthPayer Intelligence, 2018; Spark Therapeutics Press Release, Jan 2018",
+    "link": "http:\/\/ir.sparktx.com\/news-releases\/news-release-details\/spark-therapeutics-announces-first-their-kind-programs-improve",
+    "date": "2018-07-25 11:25:54"
+  }
 ]
