@@ -7,7 +7,9 @@ var HTML = [],
 
 jQuery(function(){
     loadAjax('categories.json');
+    
     jQuery('.fixed-action-btn').floatingActionButton();
+
 });
 
 
@@ -126,10 +128,8 @@ function createData(arr) {
 			<div class="back card">\
 				<div class="demo-card__secondary mdc-typography--body2 my-element--animating">\
 				'+arr.description.substr(0, 300)+' <a class="source_cls" data-tab="source'+arr.source+'">['+arr.source+']</a>\
-				<a class="show-desc" href="#more_Data_'+arr.id+'" >read more</a>\
+				<a href="javascript:void(0);" onclick="showAll('+arr.id+')">read more</a>\
 				</div>\
-			</div>\
-			<div class="tool-desc" id="more_Data_'+arr.id+'" style="display:none"><div class="inner_tool_tip"><p>'+arr.description+' <a class="source_cls" href="#more_Data_'+arr.id+'" data-tab="source'+arr.source+'">['+arr.source+']</a></p><a class="close_tool_tip" href="#more_Data_'+arr.id+'">Close</a></div>\
 			</div>\
 		</div>\
 	</div>';
@@ -347,7 +347,6 @@ function typeFilter(){
 jQuery(document).on('click', 'a.source_cls', function (event) {
     event.preventDefault();
     jQuery('#myData').hide();
-    jQuery(jQuery(this).attr('href')).hide();
     var tab_id = jQuery(this).attr('data-tab');
     jQuery("#source li").removeClass('selected');
     jQuery("#" + tab_id).addClass('selected ');
@@ -417,18 +416,10 @@ function downloadCSV(){
     link.click();
 }  
 
-jQuery(document).on('click', '.show-desc', function(event){
-     event.preventDefault();
-     jQuery('.tool-desc').hide();
-    jQuery(jQuery(this).attr('href')).show();
-});
  
-
-jQuery(document).on('click', '.close_tool_tip', function(event){
-     event.preventDefault();
-    
-    jQuery(jQuery(this).attr('href')).hide();
-});
+ 
+ 
+ 
  
  
  
