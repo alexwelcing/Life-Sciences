@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 	<head>
 		<meta charset="utf-8">
 		<title>Card - Material Components Catalog</title>
@@ -75,21 +75,29 @@ a.close_tool_tip {
 	</head>
 	<body>
 		<main class="container">
-			<section class="head-part" id="btn_cards">
-				<h3>Explore by selecting one</h3>
-				<div class="filter-button-group" id="categories">
-				    <div class="dyn"></div>
-				    <div class="fil">
-				        <button class="btn btn-default date" data-sort-direction="asc" data-sort-value="filedate" type="button">Date 
-				            <i class="fa fa-chevron-up" aria-hidden="true"></i>
-				        </button> 
-				        <button class="btn btn-default type" data-sort-direction="asc" data-sort-value="filetype" type="button">Type</button>
-				    </div>
-				</div>
-				
-				<div class="filter-button-group sub-buttons" id="subcategories">
-				</div>
-			</section>
+            <section class="head-part" id="btn_cards">
+                <h3>Explore by selecting one</h3>
+                <div class="header_text">
+                    <p>
+                        To use the tool below, first <strong>select Company, Drug, or Health Plan to generate buttons</strong> for unique Companies, Drugs, or Plans. These buttons allow you to <strong>select on/off contracts of interest</strong>. The selected results are also displayed in the table below the cards. The <strong>Date and Type buttons are unique ways to filter</strong> your results, and you can sort or search the table using options in the table head.
+                    </p>
+                    <p>To read details about a specific contract, mouse over the card. You can keep a card flipped over by clicking to compare multiple details or review sources by clicking the red number.
+                    </p>
+                </div>
+                <div class="filter-button-group" id="categories">
+                    <div class="dyn"></div>
+                    <div class="fil">
+                        <button class="btn btn-default date" data-sort-direction="asc" data-sort-value="filedate" type="button">
+                            Date
+                            <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        </button>
+                        <button class="btn btn-default type" data-sort-direction="asc" data-sort-value="filetype" type="button">Type</button>
+                    </div>
+                </div>
+
+                <div class="filter-button-group sub-buttons" id="subcategories">
+                </div>
+            </section>
 			
 			<section class="all-card grid z-depth-2" id="data">
 			</section>
@@ -130,17 +138,6 @@ a.close_tool_tip {
         	</div>
         </div>
   
-<div class="fixed-action-btn">
-  <a class="btn-floating btn-large red">
-    <i class="large material-icons">apps</i>
-  </a>
-  <ul>
-    <!--<li><a class="btn-floating red" title="Go to Cards" onclick="goTo('btn_cards')"><i class="material-icons">credit_card</i></a></li>
-    <li><a class="btn-floating yellow darken-1" title="Go to Table" onclick="goTo('start_table')"><i class="material-icons">table_chart</i></a></li>
-    <li><a class="btn-floating green" title="Go to Source" onclick="goTo('source_data')"><i class="material-icons">link</i></a></li>-->
-    <li><a class="btn-floating blue" title="Download csv file" onclick="downloadCSV()"><i class="material-icons">get_app</i></a></li>
-  </ul>
-</div>
 
   
 	</body>
